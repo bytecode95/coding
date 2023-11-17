@@ -1,6 +1,7 @@
 package datastructure;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class Hashsetdemo {
     public static void main(String[] args) {
@@ -76,6 +77,15 @@ public class Hashsetdemo {
         //difference -
 //        set1.removeAll(set2);
 //        System.out.println(set1);
+
+        LinkedHashSet<Integer> set = new LinkedHashSet<>();
+        set.add(100);
+        set.add(200);
+        set.add(300);
+        set.add(400);
+        set.add(500);
+        System.out.println(set);
+
 
 
 
