@@ -39,7 +39,9 @@ public class Hashsetdemo {
         hs1.add(10);
         System.out.println(hs1);
 
+
         HashSet<Integer> hs2 = new HashSet<>(hs1);
+
         //System.out.println(hs2);
         hs2.add(20);
         System.out.println(hs2);
